@@ -82,7 +82,7 @@ const reducer = (state, action) => {
 
 결국 Immer가 해주는 핵심 작업은:
 
-### 🔑 구조적 공유(Structural Sharing)
+### 구조적 공유(Structural Sharing)
 
 - 변경된 부분만 새로운 객체로 복사
 - 변경되지 않은 레벨은 기존 참조 재사용
@@ -93,7 +93,7 @@ const reducer = (state, action) => {
 
 ---
 
-## 💡 전체 요약
+## 전체 요약
 
 ### RTK + Immer 핵심 흐름
 
